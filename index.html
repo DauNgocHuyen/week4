@@ -1,38 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>shop</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <style>
-        body{
+        body {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-        .topic{
-            line-height: 50px;
+
+        .topic {
+            height: 50px;
+            width: 100%;
+            position: fixed;
+            align-items: center;
+            top: 0;
+            z-index: 10;
             background-color: rgb(253, 159, 175);
             display: flex;
-            justify-content:  space-between;
+            justify-content: space-between;
             color: white;
-            margin: 0;
-            padding: 0;
         }
-        .end2 > img{
+        .end2>img {
             margin-bottom: 5px;
         }
-        .a{
+
+        .a {
             margin-right: 20px;
+            margin-top: 20px;
         }
-        .b{
+
+        .b {
             margin-left: 20px;
+            margin-top: 20px;
         }
-        .topic2{
+
+        .topic2 {
             display: flex;
+            margin-top: 58px;
         }
-        .c{
+
+        .c {
             color: rgb(46, 45, 45);
             font-size: 30px;
             margin-top: 30px;
@@ -40,31 +53,54 @@
             margin-bottom: 0;
             color: rgb(230, 112, 131);
         }
-        .end2{
-            margin-left: 60px;
+
+        .end2 {
+            margin-left: 37px;
             margin-top: 20px;
         }
-        .topic3{
+
+        .topic3 {
             display: flex;
         }
-        .start3{
+
+        .start3 {
             border: 2px solid rgb(206, 80, 107);
             margin-right: 39px;
+            margin-top: 15px;
         }
-        
+
+        .st {
+            background-color: rgb(204, 196, 196);
+            margin-top: 10px;
+            line-height: 30px;
+        }
+        .sts{
+            margin-left: 10px;
+        }
+        .endd{
+            margin-left: -32px;
+            margin-top: 20px;
+        }
+        body {
+            font-family: sans-serif;
+        }
     </style>
-     <style type="text/css">
-        table, th, td{
-            border:1px solid rgb(230, 112, 131);
+    <style type="text/css">
+        table,
+        th,
+        td {
+            border: 1px solid rgb(230, 112, 131);
             color: rgb(230, 112, 131);
             font-size: 15px;
             margin-left: 10px;
         }
-        td{
+
+        td {
             margin-left: 10px;
         }
-        table{
-            border-collapse:collapse;
+
+        table {
+            border-collapse: collapse;
             margin-left: 18px;
             margin-top: 0;
             line-height: 30px;
@@ -72,6 +108,7 @@
         }
     </style>
 </head>
+
 <body>
     <div class="topic">
         <div class="start">
@@ -87,52 +124,169 @@
     <div class="topic2">
         <div class="start">
             <h4 class="c">Pink Shop</h4>
-        <br>
-        <table>
-            <tr>
-                <td>
-                    <b style="margin-left: 8px;">Category 1</b>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <b style="margin-left: 8px;">Category 2</b>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <b style="margin-left: 8px;">Category 3</b>
-                </td>
-            </tr>
-        </table>
+            <br>
+            <table>
+                <tr>
+                    <td>
+                        <b style="margin-left: 8px;">Category 1</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b style="margin-left: 8px;">Category 2</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b style="margin-left: 8px;">Category 3</b>
+                    </td>
+                </tr>
+            </table>
         </div>
         <div class="end2">
-            <img src="http://trivietdecor.com.vn/uploads/7_1601366965.jpg" 
-            alt="shop" width="900px" height="400px">
+            <img src="http://trivietdecor.com.vn/uploads/7_1601366965.jpg" alt="shop" width="900px" height="400px">
             <div class="topic3">
                 <div class="start3">
                     <img src="https://bumshop.com.vn/wp-content/uploads/2019/09/ao-hoodie-TRON-HONG-1-min.jpg"
-                    alt="ao hoodie" width="270px" height="180">
-                    <h2 style="color: rgb(56, 135, 201); margin-left: 60px; margin-top: 3px; margin-bottom: 0;">Áo Hoodie</h2>
+                        alt="ao hoodie" width="270px" height="180">
+                    <h2 style="color: rgb(56, 135, 201); margin-left: 60px; margin-top: 3px; margin-bottom: 0;">Áo
+                        Hoodie</h2>
                     <h4 style="margin-left: 60px; font-size: 18px; margin-top: 2px;">$19.99</h4>
-                   
+                    <div class="st">
+                        <i class="fas fa-star" style="margin-left: 70px"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
                 </div>
                 <div class="start3">
-                    <img src="https://cf.shopee.vn/file/4b7e6ce73a40e974d0be3a57a24513f0"
-                    alt="ao hoodie" width="270px" height="180">
-                    <h2 style="color: rgb(56, 135, 201); margin-left: 60px; margin-top: 3px; margin-bottom: 0;">Áo Croptop</h2>
+                    <img src="https://cf.shopee.vn/file/4b7e6ce73a40e974d0be3a57a24513f0" alt="ao hoodie" width="270px"
+                        height="180">
+                    <h2 style="color: rgb(56, 135, 201); margin-left: 60px; margin-top: 3px; margin-bottom: 0;">Áo
+                        Croptop</h2>
                     <h4 style="margin-left: 60px; font-size: 18px; margin-top: 2px;">$28.89</h4>
+                    <div class="st">
+                        <i class="fas fa-star" style="margin-left: 70px"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
                 </div>
                 <div class="start3">
                     <img src=https://vn-live-05.slatic.net/p/0ee75e86d11091b1bdd269cf37d5b9fd.jpg_720x720q80.jpg_.webp"
-                    alt="ao hoodie" width="270px" height="180">
-                    <h2 style="color: rgb(56, 135, 201); margin-left: 60px; margin-top: 3px; margin-bottom: 0;">Áo Sweater</h2>
+                        alt="ao hoodie" width="270px" height="180">
+                    <h2 style="color: rgb(56, 135, 201); margin-left: 60px; margin-top: 3px; margin-bottom: 0;">Áo
+                        Sweater</h2>
                     <h4 style="margin-left: 60px; font-size: 18px; margin-top: 2px;">$32.49</h4>
-                    
+                    <div class="st">
+                        <i class="fas fa-star" style="margin-left: 70px"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
                 </div>
+
             </div>
+            <div class="topic3">
+                <div class="start3">
+                    <img src="https://cf.shopee.vn/file/096388afd2859bd9f892df8200a0d5b1" alt="ao hoodie" width="270px"
+                        height="180">
+                    <h2 style="color: rgb(56, 135, 201); margin-left: 60px; margin-top: 3px; margin-bottom: 0;">Quần
+                        Nhung</h2>
+                    <h4 style="margin-left: 60px; font-size: 18px; margin-top: 2px;">$27.63</h4>
+                    <div class="st">
+                        <i class="fas fa-star" style="margin-left: 70px"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="start3">
+                    <img src="https://smd.com.vn/wp-content/uploads/2020/05/set-ao-croptop-trang-quan-jogger-hong.jpg"
+                        alt="ao hoodie" width="270px" height="180">
+                    <h2 style="color: rgb(56, 135, 201); margin-left: 60px; margin-top: 3px; margin-bottom: 0;">Quần
+                        Jogger</h2>
+                    <h4 style="margin-left: 60px; font-size: 18px; margin-top: 2px;">$37.63</h4>
+                    <div class="st">
+                        <i class="fas fa-star" style="margin-left: 70px"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+                <div class="start3">
+                    <img src="https://cf.shopee.vn/file/5d65ad47a4495e4dca57434ec36f8e33" alt="ao hoodie" width="270px"
+                        height="180">
+                    <h2 style="color: rgb(56, 135, 201); margin-left: 60px; margin-top: 3px; margin-bottom: 0;">Quần
+                        Kaki</h2>
+                    <h4 style="margin-left: 60px; font-size: 18px; margin-top: 2px;">$49.99</h4>
+                    <div class="st">
+                        <i class="fas fa-star" style="margin-left: 70px"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+
+            </div>
+            <div class="topic3">
+                <div class="start3">
+                    <img src="https://cdn.vuahanghieu.com/unsafe/0x900/left/top/smart/filters:quality(90)/https://admin.vuahanghieu.com/upload/product/2020/10/5f993772169e6-28102020161842.jpg"
+                        alt="ao hoodie" width="270px" height="180">
+                    <h2 style="color: rgb(56, 135, 201); margin-left: 60px; margin-top: 3px; margin-bottom: 0;">Túi
+                        Charles</h2>
+                    <h4 style="margin-left: 60px; font-size: 18px; margin-top: 2px;">$32.99</h4>
+                    <div class="st">
+                        <i class="fas fa-star" style="margin-left: 70px"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+                <div class="start3">
+                    <img src="https://cf.shopee.vn/file/2cdf1cbed521a46b7e7ed84f277ad779" alt="ao hoodie" width="270px"
+                        height="180">
+                    <h2 style="color: rgb(56, 135, 201); margin-left: 60px; margin-top: 3px; margin-bottom: 0;">Túi
+                        Dior</h2>
+                    <h4 style="margin-left: 60px; font-size: 18px; margin-top: 2px;">$42.95</h4>
+                    <div class="st">
+                        <i class="fas fa-star" style="margin-left: 70px"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+                <div class="start3">
+                    <img src="https://cf.shopee.vn/file/2a4891fd0f92c81f312156f58e5610d0" alt="ao hoodie" width="270px"
+                        height="180">
+                    <h2 style="color: rgb(56, 135, 201); margin-left: 60px; margin-top: 3px; margin-bottom: 0;">Túi
+                        LV</h2>
+                    <h4 style="margin-left: 60px; font-size: 18px; margin-top: 2px;">$57.33</h4>
+                    <div class="st">
+                        <i class="fas fa-star" style="margin-left: 70px"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="endd">
+            <img src="https://gd1.alicdn.com/imgextra/i1/1928775983/TB2RiZ2bzfguuRjSszcXXbb7FXa_!!1928775983.jpg_400x400.jpg"
+            width="202px" height="600px">
         </div>
     </div>
 
 </body>
+
 </html>
